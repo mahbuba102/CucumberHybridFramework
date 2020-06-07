@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BDD Test Suite" duration-ms="34073" started-at="2020-06-07T07:41:51Z" finished-at="2020-06-07T07:42:25Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.talentech.runner.TestRunner@7085bdee]" name="feature" class="com.talentech.runner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Login and Update Profile Test" duration-ms="34073" started-at="2020-06-07T07:41:51Z" finished-at="2020-06-07T07:42:25Z">
+      <class name="com.talentech.runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.talentech.runner.TestRunner@7085bdee]" name="setUpClass" is-config="true" duration-ms="237" started-at="2020-06-07T03:41:51Z" finished-at="2020-06-07T03:41:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.talentech.runner.TestRunner@7085bdee]" name="feature" duration-ms="33439" started-at="2020-06-07T03:41:52Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-06-07T03:42:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login Feature]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.talentech.runner.TestRunner@7085bdee]" name="tearDownClass" is-config="true" duration-ms="39" started-at="2020-06-07T03:42:25Z" finished-at="2020-06-07T03:42:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.talentech.runner.TestRunner -->
+    </test> <!-- Login and Update Profile Test -->
+  </suite> <!-- BDD Test Suite -->
+</testng-results>

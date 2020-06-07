@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [RegressionSuite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.talentech.runner.TestRunner">
+        <methods>
+          <include name="feature"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- com.talentech.runner.TestRunner -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->
