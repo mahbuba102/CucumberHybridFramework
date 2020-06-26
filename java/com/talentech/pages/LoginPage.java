@@ -24,6 +24,9 @@ public class LoginPage {
 	@FindBy(how=How.XPATH,using="//button[contains(text(),'Sign In')]")
 	public WebElement signIn;
 
+        @FindBy(how=How.XPATH,using="//button[contains(text(),'Sign In')]")
+	public WebElement signIn2;
+
 
 //	@FindBy(how=How.XPATH,using="//h1[contains(text(),'Search or Track Packages')]")
 //	public WebElement text;
